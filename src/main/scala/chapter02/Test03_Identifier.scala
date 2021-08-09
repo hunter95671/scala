@@ -15,7 +15,7 @@ object Test03_Identifier {
     val -+/% = ""
 
     //(3)、用反引号`....`包括的任意字符串，即使是 Scala 关键字（39 个）也可以
-    val `if`= "if"
+    val `if` = "if"
   }
 
 }
