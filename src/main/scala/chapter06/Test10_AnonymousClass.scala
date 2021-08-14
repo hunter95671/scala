@@ -4,7 +4,7 @@ object Test10_AnonymousClass {
 
   def main(args: Array[String]): Unit = {
 
-    val person10:Person10=new Person10 {
+    val person10: Person10 = new Person10 {
       override var name: String = "tom"
 
       override def eat(): Unit = {
@@ -17,7 +17,8 @@ object Test10_AnonymousClass {
 }
 
 //定义一个抽象类
-abstract class Person10{
-  var name:String
-  def eat():Unit
+abstract class Person10 {
+  var name: String
+
+  def eat(): Unit
 }

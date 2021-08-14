@@ -36,5 +36,4 @@ class Student4(name: String,age: Int){
   def printInfo():Unit={
     println(s"student4:name = ${name},age = ${age}")
   }
-
 }
