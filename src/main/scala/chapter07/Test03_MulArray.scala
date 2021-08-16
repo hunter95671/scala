@@ -1,6 +1,6 @@
 package chapter07
 
-object Test03_MulArry {
+object Test03_MulArray {
 
   def main(args: Array[String]): Unit = {
 
