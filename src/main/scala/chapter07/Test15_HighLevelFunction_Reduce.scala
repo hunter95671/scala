@@ -18,7 +18,6 @@ object Test15_HighLevelFunction_Reduce {
     println(list2.reduceLeft(_ - _)) //-24
     println(list2.reduceRight(_ - _)) //6
 
-
     //2.fold
     println(list.fold(10)(_ + _))   //10+1+2+3+4
     println(list.fold(10)(_ - _))   //10-1-2-3-4

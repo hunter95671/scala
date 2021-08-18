@@ -64,7 +64,5 @@ object Test14_HighLevelFunction_Map {
     //给定一组词汇，按照单词首字母分组
     val wordList=List("China","tom","java","CBA")
     println(wordList.groupBy(_.charAt(0)))
-
-
   }
 }
